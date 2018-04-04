@@ -1,5 +1,10 @@
+html {
+  background-color: #efefef;
+}
+
 table {
   min-width: 50em;
+  background-color: #fff;
 }
 
 .table-wrapper {
@@ -8,9 +13,18 @@ table {
 
 .logo {
   max-width: 200px;
-  display: block;
+}
+
+header {
+  background-color: #ddd;
 }
 
 .search {
-  display: block;
+  background-color: #fff;
+  border: solid 2px #000;
+}
+
+dl {
+  background-color: #fff;
+  border-radius: 5px;
 }
