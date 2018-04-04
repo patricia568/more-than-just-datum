@@ -5,3 +5,12 @@ table {
 .table-wrapper {
   overflow: visible;
 }
+
+.logo {
+  max-width: 200px;
+  display: block;
+}
+
+.search {
+  display: block;
+}
