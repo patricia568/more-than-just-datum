@@ -32,9 +32,10 @@ dl {
 }
 
 @media only screen and (min-width: 38em) {
-dl {
-  display: block;
-}
+
+  .logo {
+    max-width: 175px;
+  }
 
 
 }
