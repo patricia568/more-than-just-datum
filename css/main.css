@@ -5,11 +5,11 @@ html {
 
 table {
   min-width: 50em;
-  background-color: #fff;
 }
 
 .table-wrapper {
   overflow: visible;
+  background-color: #fff;
 }
 
 .logo {
@@ -23,9 +23,18 @@ header {
 .search {
   background-color: #fff;
   border: solid 2px #000;
+  max-height: 30px;
 }
 
 dl {
   background-color: #fff;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 38em) {
+dl {
+  display: block;
+}
+
+
 }
